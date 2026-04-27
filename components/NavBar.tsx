@@ -4,6 +4,7 @@ import { useSession, signOut } from 'next-auth/react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { Settings, LogOut, Brain } from 'lucide-react';
+import { APP_VERSION } from '@/lib/version';
 
 export function NavBar() {
   const { data: session } = useSession();
@@ -24,6 +25,7 @@ export function NavBar() {
           <Link href="/" className="flex items-center gap-2 text-[#E2E8F0] font-semibold">
             <Brain className="h-5 w-5 text-[#3B82F6]" />
             Financial Brain
+            <span className="text-xs font-normal text-[#475569] font-mono ml-1">v{APP_VERSION}</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-1">
