@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "w00000001-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000001",
+    "balance_cents": 45490,
+    "currency": "USD",
+    "agent_id": "a1b2c3d4-0000-0000-0000-000000000001",
+    "created_at": "2026-03-28T14:08:49.559Z"
+  },
+  {
+    "id": "w00000002-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 12433,
+    "currency": "USD",
+    "agent_id": "a1b2c3d4-0000-0000-0000-000000000002",
+    "created_at": "2026-04-25T03:07:52.128Z"
+  },
+  {
+    "id": "w00000003-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 12422,
+    "currency": "USD",
+    "agent_id": "a1b2c3d4-0000-0000-0000-000000000003",
+    "created_at": "2026-04-22T11:13:59.478Z"
+  },
+  {
+    "id": "w00000004-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 88136,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T05:29:27.794Z"
+  },
+  {
+    "id": "w00000005-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000005",
+    "balance_cents": 43263,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T10:41:52.575Z"
+  },
+  {
+    "id": "w00000006-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 85855,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T04:26:31.093Z"
+  },
+  {
+    "id": "w00000007-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 82919,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T17:45:08.726Z"
+  },
+  {
+    "id": "w00000008-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 90965,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T19:47:54.989Z"
+  },
+  {
+    "id": "w00000009-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000009",
+    "balance_cents": 77778,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T19:23:44.752Z"
+  },
+  {
+    "id": "w00000010-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 85066,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T23:31:55.822Z"
+  },
+  {
+    "id": "w00000011-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 51091,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T22:41:38.123Z"
+  },
+  {
+    "id": "w00000012-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 12765,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T18:51:14.667Z"
+  },
+  {
+    "id": "w00000013-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000013",
+    "balance_cents": 80290,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T07:14:31.050Z"
+  },
+  {
+    "id": "w00000014-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 55829,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T17:07:15.660Z"
+  },
+  {
+    "id": "w00000015-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 2352,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T22:47:14.153Z"
+  },
+  {
+    "id": "w00000016-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 74093,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T10:08:11.687Z"
+  },
+  {
+    "id": "w00000017-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000017",
+    "balance_cents": 91839,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T10:15:22.652Z"
+  },
+  {
+    "id": "w00000018-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 37048,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T18:14:15.851Z"
+  },
+  {
+    "id": "w00000019-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 31739,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T11:47:50.272Z"
+  },
+  {
+    "id": "w00000020-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 82976,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T09:12:08.523Z"
+  },
+  {
+    "id": "w00000021-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000021",
+    "balance_cents": 40689,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T05:28:39.588Z"
+  },
+  {
+    "id": "w00000022-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 99343,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-09T09:18:49.725Z"
+  },
+  {
+    "id": "w00000023-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 24295,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T03:59:19.821Z"
+  },
+  {
+    "id": "w00000024-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 74968,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T17:50:56.846Z"
+  },
+  {
+    "id": "w00000025-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000025",
+    "balance_cents": 9553,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T17:43:01.085Z"
+  },
+  {
+    "id": "w00000026-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 8012,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T19:23:43.582Z"
+  },
+  {
+    "id": "w00000027-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 51358,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T18:03:55.086Z"
+  },
+  {
+    "id": "w00000028-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 96814,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T02:47:59.998Z"
+  },
+  {
+    "id": "w00000029-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000029",
+    "balance_cents": 67971,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T07:58:31.349Z"
+  },
+  {
+    "id": "w00000030-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 1300,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T07:01:00.361Z"
+  },
+  {
+    "id": "w00000031-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 24675,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T05:14:33.220Z"
+  },
+  {
+    "id": "w00000032-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 21059,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T09:40:42.052Z"
+  },
+  {
+    "id": "w00000033-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000033",
+    "balance_cents": 76162,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T14:31:28.113Z"
+  },
+  {
+    "id": "w00000034-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 18741,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T22:24:40.740Z"
+  },
+  {
+    "id": "w00000035-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 35205,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T20:20:01.481Z"
+  },
+  {
+    "id": "w00000036-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 15766,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T15:18:20.802Z"
+  },
+  {
+    "id": "w00000037-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000037",
+    "balance_cents": 82528,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-09T02:59:12.065Z"
+  },
+  {
+    "id": "w00000038-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 12765,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T14:51:11.290Z"
+  },
+  {
+    "id": "w00000039-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 38811,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T13:43:07.506Z"
+  },
+  {
+    "id": "w00000040-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 40452,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T16:02:20.048Z"
+  },
+  {
+    "id": "w00000041-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000041",
+    "balance_cents": 4766,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T01:23:44.849Z"
+  },
+  {
+    "id": "w00000042-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 56359,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T09:45:17.303Z"
+  },
+  {
+    "id": "w00000043-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 31851,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T13:30:03.749Z"
+  },
+  {
+    "id": "w00000044-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 34381,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T11:58:19.269Z"
+  },
+  {
+    "id": "w00000045-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000045",
+    "balance_cents": 81238,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T21:11:11.050Z"
+  },
+  {
+    "id": "w00000046-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 10395,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T10:08:08.620Z"
+  },
+  {
+    "id": "w00000047-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 51887,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T13:11:31.214Z"
+  },
+  {
+    "id": "w00000048-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 28907,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T02:47:24.356Z"
+  },
+  {
+    "id": "w00000049-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000049",
+    "balance_cents": 98353,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T04:40:07.896Z"
+  },
+  {
+    "id": "w00000050-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 39331,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T07:36:57.908Z"
+  },
+  {
+    "id": "w00000051-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 35193,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T09:31:36.394Z"
+  },
+  {
+    "id": "w00000052-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 31847,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T04:35:44.603Z"
+  },
+  {
+    "id": "w00000053-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000053",
+    "balance_cents": 23016,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T23:41:04.820Z"
+  },
+  {
+    "id": "w00000054-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 10544,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T20:25:47.369Z"
+  },
+  {
+    "id": "w00000055-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 72329,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T16:13:50.586Z"
+  },
+  {
+    "id": "w00000056-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 54982,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T16:44:36.718Z"
+  },
+  {
+    "id": "w00000057-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000057",
+    "balance_cents": 84647,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T02:28:31.413Z"
+  },
+  {
+    "id": "w00000058-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 23687,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T11:04:03.264Z"
+  },
+  {
+    "id": "w00000059-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 4208,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T06:24:54.567Z"
+  },
+  {
+    "id": "w00000060-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 20706,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T00:20:11.143Z"
+  },
+  {
+    "id": "w00000061-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000061",
+    "balance_cents": 37528,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T19:47:00.793Z"
+  },
+  {
+    "id": "w00000062-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 51645,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T01:18:25.020Z"
+  },
+  {
+    "id": "w00000063-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 91803,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T22:45:48.134Z"
+  },
+  {
+    "id": "w00000064-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 43477,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T20:22:53.052Z"
+  },
+  {
+    "id": "w00000065-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000065",
+    "balance_cents": 50841,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T16:04:54.291Z"
+  },
+  {
+    "id": "w00000066-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 81455,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T13:41:30.973Z"
+  },
+  {
+    "id": "w00000067-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 18486,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T02:42:11.291Z"
+  },
+  {
+    "id": "w00000068-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 5137,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T21:10:41.922Z"
+  },
+  {
+    "id": "w00000069-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000069",
+    "balance_cents": 83781,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T10:59:37.213Z"
+  },
+  {
+    "id": "w00000070-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 44938,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T00:10:18.410Z"
+  },
+  {
+    "id": "w00000071-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 30655,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-09T10:18:54.858Z"
+  },
+  {
+    "id": "w00000072-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 34600,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T22:18:55.941Z"
+  },
+  {
+    "id": "w00000073-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000073",
+    "balance_cents": 43113,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T19:36:03.357Z"
+  },
+  {
+    "id": "w00000074-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 29278,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T00:11:31.447Z"
+  },
+  {
+    "id": "w00000075-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 28893,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T13:48:43.365Z"
+  },
+  {
+    "id": "w00000076-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 71214,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-18T03:39:27.911Z"
+  },
+  {
+    "id": "w00000077-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000077",
+    "balance_cents": 58249,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T00:58:21.219Z"
+  },
+  {
+    "id": "w00000078-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 69334,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T08:59:10.854Z"
+  },
+  {
+    "id": "w00000079-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 48100,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T15:39:06.948Z"
+  },
+  {
+    "id": "w00000080-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 55493,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T19:16:47.260Z"
+  },
+  {
+    "id": "w00000081-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000081",
+    "balance_cents": 37271,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T13:52:45.100Z"
+  },
+  {
+    "id": "w00000082-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 42198,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T06:41:10.069Z"
+  },
+  {
+    "id": "w00000083-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 27419,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T19:28:19.595Z"
+  },
+  {
+    "id": "w00000084-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 82982,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T11:04:55.179Z"
+  },
+  {
+    "id": "w00000085-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000085",
+    "balance_cents": 62994,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T08:56:39.498Z"
+  },
+  {
+    "id": "w00000086-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 39800,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T22:13:12.796Z"
+  },
+  {
+    "id": "w00000087-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 45709,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T11:23:42.782Z"
+  },
+  {
+    "id": "w00000088-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 84114,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T17:05:21.737Z"
+  },
+  {
+    "id": "w00000089-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000089",
+    "balance_cents": 39695,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T18:33:28.585Z"
+  },
+  {
+    "id": "w00000090-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 92310,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T00:42:16.655Z"
+  },
+  {
+    "id": "w00000091-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 9526,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T10:56:27.121Z"
+  },
+  {
+    "id": "w00000092-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 38644,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T08:55:53.285Z"
+  },
+  {
+    "id": "w00000093-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000093",
+    "balance_cents": 36456,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T18:36:38.618Z"
+  },
+  {
+    "id": "w00000094-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 31260,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T04:37:13.445Z"
+  },
+  {
+    "id": "w00000095-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 56155,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T21:39:18.725Z"
+  },
+  {
+    "id": "w00000096-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 12731,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T19:05:14.424Z"
+  },
+  {
+    "id": "w00000097-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000097",
+    "balance_cents": 100321,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T21:24:04.009Z"
+  },
+  {
+    "id": "w00000098-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 34516,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T06:21:19.514Z"
+  },
+  {
+    "id": "w00000099-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 33096,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T15:28:11.449Z"
+  },
+  {
+    "id": "w00000100-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 96968,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T09:54:11.565Z"
+  },
+  {
+    "id": "w00000101-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000101",
+    "balance_cents": 27804,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T14:30:48.149Z"
+  },
+  {
+    "id": "w00000102-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 26769,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T19:31:09.537Z"
+  },
+  {
+    "id": "w00000103-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 92404,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T21:00:07.966Z"
+  },
+  {
+    "id": "w00000104-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 41009,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T22:23:31.589Z"
+  },
+  {
+    "id": "w00000105-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000105",
+    "balance_cents": 21703,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T03:16:16.369Z"
+  },
+  {
+    "id": "w00000106-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 78026,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T22:41:23.484Z"
+  },
+  {
+    "id": "w00000107-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 58565,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T14:03:58.109Z"
+  },
+  {
+    "id": "w00000108-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 49456,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T21:15:19.842Z"
+  },
+  {
+    "id": "w00000109-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000109",
+    "balance_cents": 83457,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-28T23:11:41.466Z"
+  },
+  {
+    "id": "w00000110-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 8779,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T07:13:19.409Z"
+  },
+  {
+    "id": "w00000111-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 2971,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T09:27:53.693Z"
+  },
+  {
+    "id": "w00000112-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 72891,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T20:05:44.122Z"
+  },
+  {
+    "id": "w00000113-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000113",
+    "balance_cents": 33184,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T13:44:19.976Z"
+  },
+  {
+    "id": "w00000114-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 46985,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T15:36:29.538Z"
+  },
+  {
+    "id": "w00000115-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 27316,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T02:30:14.402Z"
+  },
+  {
+    "id": "w00000116-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 44096,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T10:18:45.319Z"
+  },
+  {
+    "id": "w00000117-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000117",
+    "balance_cents": 96542,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T22:42:26.865Z"
+  },
+  {
+    "id": "w00000118-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 6899,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T17:04:38.150Z"
+  },
+  {
+    "id": "w00000119-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 81537,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-18T07:39:41.192Z"
+  },
+  {
+    "id": "w00000120-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 29074,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T11:53:52.947Z"
+  },
+  {
+    "id": "w00000121-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000121",
+    "balance_cents": 92885,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T03:37:38.823Z"
+  },
+  {
+    "id": "w00000122-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 48310,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T17:52:53.226Z"
+  },
+  {
+    "id": "w00000123-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 98637,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T12:20:55.020Z"
+  },
+  {
+    "id": "w00000124-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 83813,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T17:40:31.450Z"
+  },
+  {
+    "id": "w00000125-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000125",
+    "balance_cents": 11532,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T07:34:48.124Z"
+  },
+  {
+    "id": "w00000126-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 86580,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T06:33:07.850Z"
+  },
+  {
+    "id": "w00000127-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 22226,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T07:37:30.029Z"
+  },
+  {
+    "id": "w00000128-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 54495,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T04:26:15.992Z"
+  },
+  {
+    "id": "w00000129-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000129",
+    "balance_cents": 22059,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T00:19:15.473Z"
+  },
+  {
+    "id": "w00000130-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 5993,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T03:37:29.580Z"
+  },
+  {
+    "id": "w00000131-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 73137,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T12:53:38.596Z"
+  },
+  {
+    "id": "w00000132-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 20848,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T11:10:12.577Z"
+  },
+  {
+    "id": "w00000133-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000133",
+    "balance_cents": 90452,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T20:40:09.084Z"
+  },
+  {
+    "id": "w00000134-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 40742,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T23:15:09.858Z"
+  },
+  {
+    "id": "w00000135-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 93148,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T15:48:25.449Z"
+  },
+  {
+    "id": "w00000136-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 86754,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T11:26:40.054Z"
+  },
+  {
+    "id": "w00000137-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000137",
+    "balance_cents": 15050,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T01:49:50.646Z"
+  },
+  {
+    "id": "w00000138-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 49775,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T23:31:40.902Z"
+  },
+  {
+    "id": "w00000139-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 44224,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T13:48:35.248Z"
+  },
+  {
+    "id": "w00000140-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 54085,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T07:32:16.494Z"
+  },
+  {
+    "id": "w00000141-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000141",
+    "balance_cents": 47965,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T13:07:03.728Z"
+  },
+  {
+    "id": "w00000142-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 47484,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T09:53:23.199Z"
+  },
+  {
+    "id": "w00000143-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 71842,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T21:26:00.379Z"
+  },
+  {
+    "id": "w00000144-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 43025,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T07:57:21.571Z"
+  },
+  {
+    "id": "w00000145-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000145",
+    "balance_cents": 5269,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T19:34:34.231Z"
+  },
+  {
+    "id": "w00000146-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 10901,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T04:04:03.823Z"
+  },
+  {
+    "id": "w00000147-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 47954,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T01:57:27.962Z"
+  },
+  {
+    "id": "w00000148-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 88424,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T21:48:59.074Z"
+  },
+  {
+    "id": "w00000149-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000149",
+    "balance_cents": 88096,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T21:54:30.652Z"
+  },
+  {
+    "id": "w00000150-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 83877,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T14:32:11.819Z"
+  },
+  {
+    "id": "w00000151-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 9063,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T05:06:08.712Z"
+  },
+  {
+    "id": "w00000152-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 71307,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T19:33:31.859Z"
+  },
+  {
+    "id": "w00000153-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000153",
+    "balance_cents": 79067,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T00:07:40.793Z"
+  },
+  {
+    "id": "w00000154-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 95586,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T22:52:43.248Z"
+  },
+  {
+    "id": "w00000155-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 1151,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T23:12:06.007Z"
+  },
+  {
+    "id": "w00000156-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 81228,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T14:31:54.186Z"
+  },
+  {
+    "id": "w00000157-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000157",
+    "balance_cents": 56277,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-28T20:04:09.795Z"
+  },
+  {
+    "id": "w00000158-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 24294,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T08:28:33.629Z"
+  },
+  {
+    "id": "w00000159-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 36017,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T14:05:14.417Z"
+  },
+  {
+    "id": "w00000160-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 38006,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T09:18:29.615Z"
+  },
+  {
+    "id": "w00000161-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000161",
+    "balance_cents": 50487,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T16:54:27.597Z"
+  },
+  {
+    "id": "w00000162-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 21401,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T23:22:53.049Z"
+  },
+  {
+    "id": "w00000163-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 42603,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T05:35:23.746Z"
+  },
+  {
+    "id": "w00000164-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 22517,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T03:25:29.300Z"
+  },
+  {
+    "id": "w00000165-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000165",
+    "balance_cents": 27350,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T12:04:59.169Z"
+  },
+  {
+    "id": "w00000166-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 89912,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T05:09:19.071Z"
+  },
+  {
+    "id": "w00000167-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 65839,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T16:51:02.659Z"
+  },
+  {
+    "id": "w00000168-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 49226,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T15:37:56.011Z"
+  },
+  {
+    "id": "w00000169-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000169",
+    "balance_cents": 61982,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T00:08:58.807Z"
+  },
+  {
+    "id": "w00000170-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 19081,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T17:30:23.942Z"
+  },
+  {
+    "id": "w00000171-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 11351,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T13:07:35.185Z"
+  },
+  {
+    "id": "w00000172-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 10064,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T08:39:35.202Z"
+  },
+  {
+    "id": "w00000173-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000173",
+    "balance_cents": 95247,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T03:56:42.939Z"
+  },
+  {
+    "id": "w00000174-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 96321,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T15:30:52.272Z"
+  },
+  {
+    "id": "w00000175-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 3970,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T02:14:16.232Z"
+  },
+  {
+    "id": "w00000176-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 94391,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T14:00:02.283Z"
+  },
+  {
+    "id": "w00000177-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000177",
+    "balance_cents": 5495,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T19:30:53.714Z"
+  },
+  {
+    "id": "w00000178-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 31521,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T13:04:45.967Z"
+  },
+  {
+    "id": "w00000179-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 6907,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T13:33:44.464Z"
+  },
+  {
+    "id": "w00000180-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 88690,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T06:37:24.946Z"
+  },
+  {
+    "id": "w00000181-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000181",
+    "balance_cents": 96949,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T14:13:02.038Z"
+  },
+  {
+    "id": "w00000182-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 21527,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T04:41:47.449Z"
+  },
+  {
+    "id": "w00000183-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 24884,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T21:06:00.748Z"
+  },
+  {
+    "id": "w00000184-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 31081,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-28T21:13:27.906Z"
+  },
+  {
+    "id": "w00000185-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000185",
+    "balance_cents": 32673,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T08:50:52.818Z"
+  },
+  {
+    "id": "w00000186-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 75318,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T01:24:26.325Z"
+  },
+  {
+    "id": "w00000187-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 96534,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T09:13:02.830Z"
+  },
+  {
+    "id": "w00000188-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 30717,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T05:28:13.862Z"
+  },
+  {
+    "id": "w00000189-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000189",
+    "balance_cents": 10373,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T20:40:00.097Z"
+  },
+  {
+    "id": "w00000190-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 23339,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T07:09:23.200Z"
+  },
+  {
+    "id": "w00000191-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 10856,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T02:01:21.466Z"
+  },
+  {
+    "id": "w00000192-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 73263,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T10:06:18.201Z"
+  },
+  {
+    "id": "w00000193-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000193",
+    "balance_cents": 84892,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T08:10:08.446Z"
+  },
+  {
+    "id": "w00000194-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 71623,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T04:53:15.100Z"
+  },
+  {
+    "id": "w00000195-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 67177,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T12:22:32.584Z"
+  },
+  {
+    "id": "w00000196-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 37231,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T20:08:40.412Z"
+  },
+  {
+    "id": "w00000197-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000197",
+    "balance_cents": 19389,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T01:56:11.924Z"
+  },
+  {
+    "id": "w00000198-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 35082,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-09T01:36:45.887Z"
+  },
+  {
+    "id": "w00000199-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 85432,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T21:22:43.238Z"
+  },
+  {
+    "id": "w00000200-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 71016,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T18:40:13.472Z"
+  },
+  {
+    "id": "w00000201-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000201",
+    "balance_cents": 42621,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T03:38:08.371Z"
+  },
+  {
+    "id": "w00000202-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 72912,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T22:37:59.214Z"
+  },
+  {
+    "id": "w00000203-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 69640,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T10:10:08.592Z"
+  },
+  {
+    "id": "w00000204-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 30131,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T10:12:34.701Z"
+  },
+  {
+    "id": "w00000205-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000205",
+    "balance_cents": 73629,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T03:50:16.304Z"
+  },
+  {
+    "id": "w00000206-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 84574,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T05:41:13.634Z"
+  },
+  {
+    "id": "w00000207-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 64941,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T11:38:21.937Z"
+  },
+  {
+    "id": "w00000208-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 89775,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T22:21:35.324Z"
+  },
+  {
+    "id": "w00000209-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000209",
+    "balance_cents": 91452,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T13:49:31.788Z"
+  },
+  {
+    "id": "w00000210-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 59409,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T04:50:34.542Z"
+  },
+  {
+    "id": "w00000211-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 24128,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T22:44:41.084Z"
+  },
+  {
+    "id": "w00000212-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 40669,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T00:26:10.907Z"
+  },
+  {
+    "id": "w00000213-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000213",
+    "balance_cents": 100514,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T11:21:00.380Z"
+  },
+  {
+    "id": "w00000214-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 84888,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T08:27:24.847Z"
+  },
+  {
+    "id": "w00000215-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 22373,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T13:36:22.125Z"
+  },
+  {
+    "id": "w00000216-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 52072,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T03:08:39.934Z"
+  },
+  {
+    "id": "w00000217-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000217",
+    "balance_cents": 41062,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T12:48:11.775Z"
+  },
+  {
+    "id": "w00000218-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 91601,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T12:29:00.685Z"
+  },
+  {
+    "id": "w00000219-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 23390,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T02:49:10.761Z"
+  },
+  {
+    "id": "w00000220-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 12844,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T11:16:11.747Z"
+  },
+  {
+    "id": "w00000221-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000221",
+    "balance_cents": 9961,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T13:44:21.581Z"
+  },
+  {
+    "id": "w00000222-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 21951,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T18:04:05.264Z"
+  },
+  {
+    "id": "w00000223-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 100393,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T02:47:01.581Z"
+  },
+  {
+    "id": "w00000224-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 79827,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T02:08:07.388Z"
+  },
+  {
+    "id": "w00000225-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000225",
+    "balance_cents": 26308,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T08:45:24.621Z"
+  },
+  {
+    "id": "w00000226-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 83913,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T13:50:06.479Z"
+  },
+  {
+    "id": "w00000227-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 71423,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T22:05:06.002Z"
+  },
+  {
+    "id": "w00000228-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 47019,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T12:22:19.008Z"
+  },
+  {
+    "id": "w00000229-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000229",
+    "balance_cents": 49477,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T14:03:11.002Z"
+  },
+  {
+    "id": "w00000230-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 94482,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T16:07:00.354Z"
+  },
+  {
+    "id": "w00000231-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 60764,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T07:55:34.457Z"
+  },
+  {
+    "id": "w00000232-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 19770,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T19:42:29.071Z"
+  },
+  {
+    "id": "w00000233-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000233",
+    "balance_cents": 84214,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T11:18:09.453Z"
+  },
+  {
+    "id": "w00000234-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 4859,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T21:00:59.556Z"
+  },
+  {
+    "id": "w00000235-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 84226,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T23:36:36.429Z"
+  },
+  {
+    "id": "w00000236-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 65393,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T16:43:16.594Z"
+  },
+  {
+    "id": "w00000237-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000237",
+    "balance_cents": 28874,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T08:51:04.560Z"
+  },
+  {
+    "id": "w00000238-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 20226,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T01:31:32.330Z"
+  },
+  {
+    "id": "w00000239-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 47559,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T02:15:21.567Z"
+  },
+  {
+    "id": "w00000240-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 29060,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T15:57:21.450Z"
+  },
+  {
+    "id": "w00000241-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000241",
+    "balance_cents": 73715,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T07:09:14.606Z"
+  },
+  {
+    "id": "w00000242-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 74682,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T21:01:54.319Z"
+  },
+  {
+    "id": "w00000243-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 58173,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T23:56:47.453Z"
+  },
+  {
+    "id": "w00000244-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 32630,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-09T09:25:09.456Z"
+  },
+  {
+    "id": "w00000245-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000245",
+    "balance_cents": 28243,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T12:28:09.288Z"
+  },
+  {
+    "id": "w00000246-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 53880,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T10:40:19.146Z"
+  },
+  {
+    "id": "w00000247-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 77564,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T17:35:28.062Z"
+  },
+  {
+    "id": "w00000248-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 90912,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T02:43:53.721Z"
+  },
+  {
+    "id": "w00000249-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000249",
+    "balance_cents": 7574,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T13:04:41.266Z"
+  },
+  {
+    "id": "w00000250-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 4153,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T07:47:09.388Z"
+  },
+  {
+    "id": "w00000251-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 19503,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T00:22:40.859Z"
+  },
+  {
+    "id": "w00000252-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 44612,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T09:53:45.165Z"
+  },
+  {
+    "id": "w00000253-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000253",
+    "balance_cents": 79505,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T00:05:19.199Z"
+  },
+  {
+    "id": "w00000254-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 55729,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T02:38:35.988Z"
+  },
+  {
+    "id": "w00000255-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 34114,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T02:45:02.795Z"
+  },
+  {
+    "id": "w00000256-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 43416,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T16:07:30.611Z"
+  },
+  {
+    "id": "w00000257-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000257",
+    "balance_cents": 42035,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T04:39:18.891Z"
+  },
+  {
+    "id": "w00000258-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 67523,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T10:48:27.984Z"
+  },
+  {
+    "id": "w00000259-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 29156,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T17:32:26.505Z"
+  },
+  {
+    "id": "w00000260-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 88608,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T11:15:08.969Z"
+  },
+  {
+    "id": "w00000261-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000261",
+    "balance_cents": 43404,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T12:08:27.086Z"
+  },
+  {
+    "id": "w00000262-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 2995,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T09:54:03.501Z"
+  },
+  {
+    "id": "w00000263-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 48916,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T03:34:48.941Z"
+  },
+  {
+    "id": "w00000264-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 70241,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T21:23:04.462Z"
+  },
+  {
+    "id": "w00000265-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000265",
+    "balance_cents": 90564,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T10:37:11.241Z"
+  },
+  {
+    "id": "w00000266-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 71555,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T16:35:41.625Z"
+  },
+  {
+    "id": "w00000267-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 52357,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T05:23:59.780Z"
+  },
+  {
+    "id": "w00000268-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 71032,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T21:18:52.932Z"
+  },
+  {
+    "id": "w00000269-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000269",
+    "balance_cents": 31879,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T21:37:55.528Z"
+  },
+  {
+    "id": "w00000270-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 25542,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T18:24:22.912Z"
+  },
+  {
+    "id": "w00000271-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 28840,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T14:30:37.802Z"
+  },
+  {
+    "id": "w00000272-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 80220,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T20:21:15.449Z"
+  },
+  {
+    "id": "w00000273-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000273",
+    "balance_cents": 22792,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T09:15:49.493Z"
+  },
+  {
+    "id": "w00000274-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 93937,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T17:12:59.925Z"
+  },
+  {
+    "id": "w00000275-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 7420,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T22:22:03.777Z"
+  },
+  {
+    "id": "w00000276-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 44958,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T12:44:36.099Z"
+  },
+  {
+    "id": "w00000277-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000277",
+    "balance_cents": 73687,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T22:41:16.673Z"
+  },
+  {
+    "id": "w00000278-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 97709,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T07:15:33.006Z"
+  },
+  {
+    "id": "w00000279-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 71644,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T02:24:05.834Z"
+  },
+  {
+    "id": "w00000280-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 96352,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T09:06:21.220Z"
+  },
+  {
+    "id": "w00000281-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000281",
+    "balance_cents": 81679,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T03:45:13.915Z"
+  },
+  {
+    "id": "w00000282-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 100706,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-18T20:15:30.811Z"
+  },
+  {
+    "id": "w00000283-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 72353,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T07:24:59.265Z"
+  },
+  {
+    "id": "w00000284-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 15717,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T13:27:05.266Z"
+  },
+  {
+    "id": "w00000285-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000285",
+    "balance_cents": 14544,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T13:20:07.325Z"
+  },
+  {
+    "id": "w00000286-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 63855,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T16:52:54.039Z"
+  },
+  {
+    "id": "w00000287-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 45553,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T00:27:10.529Z"
+  },
+  {
+    "id": "w00000288-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 41132,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T23:39:12.967Z"
+  },
+  {
+    "id": "w00000289-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000289",
+    "balance_cents": 33577,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T10:18:41.774Z"
+  },
+  {
+    "id": "w00000290-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 75350,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T10:08:41.918Z"
+  },
+  {
+    "id": "w00000291-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 28287,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T18:31:46.685Z"
+  },
+  {
+    "id": "w00000292-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 63519,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T07:52:09.624Z"
+  },
+  {
+    "id": "w00000293-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000293",
+    "balance_cents": 24447,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T00:57:01.125Z"
+  },
+  {
+    "id": "w00000294-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 85231,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T13:59:38.438Z"
+  },
+  {
+    "id": "w00000295-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 80116,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T04:09:49.353Z"
+  },
+  {
+    "id": "w00000296-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 92939,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T14:14:11.600Z"
+  },
+  {
+    "id": "w00000297-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000297",
+    "balance_cents": 40586,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T22:02:20.858Z"
+  },
+  {
+    "id": "w00000298-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 60208,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T10:50:36.783Z"
+  },
+  {
+    "id": "w00000299-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 13844,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T05:15:24.881Z"
+  },
+  {
+    "id": "w00000300-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 80992,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T03:38:27.849Z"
+  },
+  {
+    "id": "w00000301-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000301",
+    "balance_cents": 75456,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T01:51:37.765Z"
+  },
+  {
+    "id": "w00000302-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 10642,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T08:50:40.526Z"
+  },
+  {
+    "id": "w00000303-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 83313,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T18:40:25.796Z"
+  },
+  {
+    "id": "w00000304-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 11380,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T13:33:47.398Z"
+  },
+  {
+    "id": "w00000305-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000305",
+    "balance_cents": 11438,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T03:39:51.589Z"
+  },
+  {
+    "id": "w00000306-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 74913,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T04:09:32.086Z"
+  },
+  {
+    "id": "w00000307-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 66149,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T18:54:42.017Z"
+  },
+  {
+    "id": "w00000308-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 77609,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T01:46:12.657Z"
+  },
+  {
+    "id": "w00000309-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000309",
+    "balance_cents": 78865,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T15:53:15.973Z"
+  },
+  {
+    "id": "w00000310-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 95818,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T21:11:35.457Z"
+  },
+  {
+    "id": "w00000311-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 97049,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T06:53:28.853Z"
+  },
+  {
+    "id": "w00000312-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 96736,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T14:46:27.778Z"
+  },
+  {
+    "id": "w00000313-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000313",
+    "balance_cents": 81284,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T10:30:26.119Z"
+  },
+  {
+    "id": "w00000314-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 91552,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T08:09:29.413Z"
+  },
+  {
+    "id": "w00000315-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 44718,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T12:54:09.592Z"
+  },
+  {
+    "id": "w00000316-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 62904,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T22:46:13.144Z"
+  },
+  {
+    "id": "w00000317-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000317",
+    "balance_cents": 39992,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T10:01:30.879Z"
+  },
+  {
+    "id": "w00000318-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 21480,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T01:44:56.484Z"
+  },
+  {
+    "id": "w00000319-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 21788,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T11:15:03.580Z"
+  },
+  {
+    "id": "w00000320-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 28501,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T08:05:25.443Z"
+  },
+  {
+    "id": "w00000321-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000321",
+    "balance_cents": 26754,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T15:18:13.723Z"
+  },
+  {
+    "id": "w00000322-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 37466,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T10:25:59.140Z"
+  },
+  {
+    "id": "w00000323-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 29330,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T21:44:49.053Z"
+  },
+  {
+    "id": "w00000324-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 91345,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-18T20:49:26.660Z"
+  },
+  {
+    "id": "w00000325-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000325",
+    "balance_cents": 17315,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T00:45:45.926Z"
+  },
+  {
+    "id": "w00000326-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 9272,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T18:00:53.796Z"
+  },
+  {
+    "id": "w00000327-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 28478,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T20:45:46.739Z"
+  },
+  {
+    "id": "w00000328-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 33483,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T17:03:34.208Z"
+  },
+  {
+    "id": "w00000329-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000329",
+    "balance_cents": 22171,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T20:00:36.515Z"
+  },
+  {
+    "id": "w00000330-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 76224,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T06:35:36.257Z"
+  },
+  {
+    "id": "w00000331-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 5570,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T17:58:36.956Z"
+  },
+  {
+    "id": "w00000332-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 7741,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T20:42:08.982Z"
+  },
+  {
+    "id": "w00000333-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000333",
+    "balance_cents": 36699,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T15:57:38.054Z"
+  },
+  {
+    "id": "w00000334-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 36762,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T09:55:24.210Z"
+  },
+  {
+    "id": "w00000335-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 27799,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T23:51:29.419Z"
+  },
+  {
+    "id": "w00000336-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 83294,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T08:46:36.201Z"
+  },
+  {
+    "id": "w00000337-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000337",
+    "balance_cents": 94226,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T13:11:50.944Z"
+  },
+  {
+    "id": "w00000338-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 14367,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T09:59:19.519Z"
+  },
+  {
+    "id": "w00000339-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 57498,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T08:58:48.265Z"
+  },
+  {
+    "id": "w00000340-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 23312,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T06:11:54.058Z"
+  },
+  {
+    "id": "w00000341-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000341",
+    "balance_cents": 18610,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T21:54:14.301Z"
+  },
+  {
+    "id": "w00000342-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 55780,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T16:48:37.241Z"
+  },
+  {
+    "id": "w00000343-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 19842,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T19:06:37.784Z"
+  },
+  {
+    "id": "w00000344-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 96573,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T15:11:53.103Z"
+  },
+  {
+    "id": "w00000345-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000345",
+    "balance_cents": 5372,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T12:08:37.592Z"
+  },
+  {
+    "id": "w00000346-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 81376,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T02:29:59.322Z"
+  },
+  {
+    "id": "w00000347-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 28966,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T17:24:25.520Z"
+  },
+  {
+    "id": "w00000348-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 62034,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T18:03:01.893Z"
+  },
+  {
+    "id": "w00000349-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000349",
+    "balance_cents": 22810,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T15:37:32.388Z"
+  },
+  {
+    "id": "w00000350-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 18678,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T06:50:07.131Z"
+  },
+  {
+    "id": "w00000351-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 52015,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T09:53:30.175Z"
+  },
+  {
+    "id": "w00000352-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 29887,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T00:38:05.128Z"
+  },
+  {
+    "id": "w00000353-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000353",
+    "balance_cents": 74127,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-18T15:51:17.229Z"
+  },
+  {
+    "id": "w00000354-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 9505,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-18T07:45:03.158Z"
+  },
+  {
+    "id": "w00000355-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 36094,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T18:06:19.912Z"
+  },
+  {
+    "id": "w00000356-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 75193,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T01:45:39.294Z"
+  },
+  {
+    "id": "w00000357-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000357",
+    "balance_cents": 47876,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T01:48:52.642Z"
+  },
+  {
+    "id": "w00000358-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 67212,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T20:39:48.082Z"
+  },
+  {
+    "id": "w00000359-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 38674,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T17:09:06.951Z"
+  },
+  {
+    "id": "w00000360-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 39260,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T08:28:13.009Z"
+  },
+  {
+    "id": "w00000361-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000361",
+    "balance_cents": 89114,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T19:45:00.102Z"
+  },
+  {
+    "id": "w00000362-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 81125,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T02:14:07.458Z"
+  },
+  {
+    "id": "w00000363-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 34966,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T08:21:59.316Z"
+  },
+  {
+    "id": "w00000364-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 23799,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T14:05:40.523Z"
+  },
+  {
+    "id": "w00000365-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000365",
+    "balance_cents": 18142,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T02:56:17.241Z"
+  },
+  {
+    "id": "w00000366-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 84753,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T06:10:46.048Z"
+  },
+  {
+    "id": "w00000367-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 3303,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T02:31:39.825Z"
+  },
+  {
+    "id": "w00000368-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 32051,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T00:24:59.032Z"
+  },
+  {
+    "id": "w00000369-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000369",
+    "balance_cents": 59057,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T12:46:41.460Z"
+  },
+  {
+    "id": "w00000370-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 44436,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T06:44:15.172Z"
+  },
+  {
+    "id": "w00000371-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 1214,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T14:03:57.120Z"
+  },
+  {
+    "id": "w00000372-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 75730,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T23:54:03.445Z"
+  },
+  {
+    "id": "w00000373-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000373",
+    "balance_cents": 67917,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T19:58:30.238Z"
+  },
+  {
+    "id": "w00000374-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 23060,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T00:00:34.237Z"
+  },
+  {
+    "id": "w00000375-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 100421,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T00:50:30.394Z"
+  },
+  {
+    "id": "w00000376-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 81860,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T17:08:43.849Z"
+  },
+  {
+    "id": "w00000377-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000377",
+    "balance_cents": 80319,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T23:19:12.271Z"
+  },
+  {
+    "id": "w00000378-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 6069,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T19:06:16.034Z"
+  },
+  {
+    "id": "w00000379-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 87837,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T20:43:29.468Z"
+  },
+  {
+    "id": "w00000380-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 28392,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T09:52:09.921Z"
+  },
+  {
+    "id": "w00000381-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000381",
+    "balance_cents": 17826,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T08:14:46.805Z"
+  },
+  {
+    "id": "w00000382-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 93098,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T12:49:05.505Z"
+  },
+  {
+    "id": "w00000383-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 57551,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T08:08:42.149Z"
+  },
+  {
+    "id": "w00000384-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 30709,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T04:15:15.450Z"
+  },
+  {
+    "id": "w00000385-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000385",
+    "balance_cents": 1939,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T02:40:49.121Z"
+  },
+  {
+    "id": "w00000386-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 95465,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T06:43:53.302Z"
+  },
+  {
+    "id": "w00000387-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 84066,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-17T18:46:59.146Z"
+  },
+  {
+    "id": "w00000388-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 41630,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T15:20:59.022Z"
+  },
+  {
+    "id": "w00000389-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000389",
+    "balance_cents": 54417,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T22:53:01.410Z"
+  },
+  {
+    "id": "w00000390-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 83522,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T19:24:38.865Z"
+  },
+  {
+    "id": "w00000391-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 40771,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-09T05:38:45.893Z"
+  },
+  {
+    "id": "w00000392-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 56326,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T23:37:05.080Z"
+  },
+  {
+    "id": "w00000393-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000393",
+    "balance_cents": 29220,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T18:10:49.116Z"
+  },
+  {
+    "id": "w00000394-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 69617,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-18T07:15:54.337Z"
+  },
+  {
+    "id": "w00000395-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 19306,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T21:40:56.118Z"
+  },
+  {
+    "id": "w00000396-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 25496,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T01:53:21.723Z"
+  },
+  {
+    "id": "w00000397-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000397",
+    "balance_cents": 60249,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T12:17:18.264Z"
+  },
+  {
+    "id": "w00000398-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 21019,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T12:28:13.124Z"
+  },
+  {
+    "id": "w00000399-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 51080,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T19:58:28.946Z"
+  },
+  {
+    "id": "w00000400-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 64170,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T05:25:56.840Z"
+  },
+  {
+    "id": "w00000401-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000401",
+    "balance_cents": 34626,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T14:42:44.660Z"
+  },
+  {
+    "id": "w00000402-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 27502,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-26T21:10:21.692Z"
+  },
+  {
+    "id": "w00000403-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 62260,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T03:16:17.279Z"
+  },
+  {
+    "id": "w00000404-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 31376,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T18:46:54.575Z"
+  },
+  {
+    "id": "w00000405-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000405",
+    "balance_cents": 92281,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T03:39:53.568Z"
+  },
+  {
+    "id": "w00000406-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 88791,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T20:43:32.198Z"
+  },
+  {
+    "id": "w00000407-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 92200,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-18T20:53:09.196Z"
+  },
+  {
+    "id": "w00000408-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 17280,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T03:08:06.451Z"
+  },
+  {
+    "id": "w00000409-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000409",
+    "balance_cents": 42159,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T19:33:43.135Z"
+  },
+  {
+    "id": "w00000410-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 73334,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-28T23:07:28.094Z"
+  },
+  {
+    "id": "w00000411-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 40231,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-18T05:57:13.276Z"
+  },
+  {
+    "id": "w00000412-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 66767,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T14:34:53.824Z"
+  },
+  {
+    "id": "w00000413-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000413",
+    "balance_cents": 14523,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T19:14:21.572Z"
+  },
+  {
+    "id": "w00000414-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 73746,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T21:07:03.635Z"
+  },
+  {
+    "id": "w00000415-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 67749,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T01:12:45.465Z"
+  },
+  {
+    "id": "w00000416-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 47210,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T23:28:27.269Z"
+  },
+  {
+    "id": "w00000417-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000417",
+    "balance_cents": 10911,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-30T10:45:07.552Z"
+  },
+  {
+    "id": "w00000418-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 47931,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T14:46:12.761Z"
+  },
+  {
+    "id": "w00000419-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 31434,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T20:23:17.718Z"
+  },
+  {
+    "id": "w00000420-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 68181,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-09T13:54:01.136Z"
+  },
+  {
+    "id": "w00000421-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000421",
+    "balance_cents": 43764,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T23:17:07.263Z"
+  },
+  {
+    "id": "w00000422-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 26843,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T03:41:24.283Z"
+  },
+  {
+    "id": "w00000423-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 26875,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T16:04:43.180Z"
+  },
+  {
+    "id": "w00000424-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 86597,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T01:58:24.408Z"
+  },
+  {
+    "id": "w00000425-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000425",
+    "balance_cents": 60142,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T00:39:38.899Z"
+  },
+  {
+    "id": "w00000426-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 69896,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T11:04:43.707Z"
+  },
+  {
+    "id": "w00000427-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 57401,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T22:47:38.783Z"
+  },
+  {
+    "id": "w00000428-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 19499,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T22:32:24.035Z"
+  },
+  {
+    "id": "w00000429-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000429",
+    "balance_cents": 58816,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T14:23:09.901Z"
+  },
+  {
+    "id": "w00000430-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 21037,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T07:47:40.601Z"
+  },
+  {
+    "id": "w00000431-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 99874,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T04:42:54.550Z"
+  },
+  {
+    "id": "w00000432-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 28303,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T07:17:00.701Z"
+  },
+  {
+    "id": "w00000433-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000433",
+    "balance_cents": 87644,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T01:30:05.878Z"
+  },
+  {
+    "id": "w00000434-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 66239,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T08:30:05.678Z"
+  },
+  {
+    "id": "w00000435-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 25612,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T17:43:16.647Z"
+  },
+  {
+    "id": "w00000436-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 36673,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T16:46:43.925Z"
+  },
+  {
+    "id": "w00000437-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000437",
+    "balance_cents": 77479,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T03:55:26.675Z"
+  },
+  {
+    "id": "w00000438-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 45053,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-04T03:07:04.479Z"
+  },
+  {
+    "id": "w00000439-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 39444,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T14:05:09.646Z"
+  },
+  {
+    "id": "w00000440-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 61936,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T06:25:43.119Z"
+  },
+  {
+    "id": "w00000441-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000441",
+    "balance_cents": 47263,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T08:03:46.698Z"
+  },
+  {
+    "id": "w00000442-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 26030,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T10:43:00.013Z"
+  },
+  {
+    "id": "w00000443-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 88128,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T15:58:11.752Z"
+  },
+  {
+    "id": "w00000444-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 82530,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T08:43:33.876Z"
+  },
+  {
+    "id": "w00000445-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000445",
+    "balance_cents": 89081,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T01:51:43.358Z"
+  },
+  {
+    "id": "w00000446-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 80769,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T11:31:19.403Z"
+  },
+  {
+    "id": "w00000447-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 82604,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-01T21:33:10.300Z"
+  },
+  {
+    "id": "w00000448-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 91045,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T13:12:15.957Z"
+  },
+  {
+    "id": "w00000449-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000449",
+    "balance_cents": 63090,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T21:52:26.056Z"
+  },
+  {
+    "id": "w00000450-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 58666,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T01:58:15.569Z"
+  },
+  {
+    "id": "w00000451-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 16199,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T16:04:44.597Z"
+  },
+  {
+    "id": "w00000452-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 23269,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T17:47:29.640Z"
+  },
+  {
+    "id": "w00000453-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000453",
+    "balance_cents": 41838,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T07:41:57.651Z"
+  },
+  {
+    "id": "w00000454-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 90604,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T16:11:08.868Z"
+  },
+  {
+    "id": "w00000455-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 76765,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-20T19:36:55.914Z"
+  },
+  {
+    "id": "w00000456-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 33925,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T17:00:52.065Z"
+  },
+  {
+    "id": "w00000457-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000457",
+    "balance_cents": 86397,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T19:59:23.023Z"
+  },
+  {
+    "id": "w00000458-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 77627,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-27T11:25:49.346Z"
+  },
+  {
+    "id": "w00000459-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 11456,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T07:57:39.709Z"
+  },
+  {
+    "id": "w00000460-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 91822,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T22:45:11.080Z"
+  },
+  {
+    "id": "w00000461-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000461",
+    "balance_cents": 9453,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-29T11:56:20.333Z"
+  },
+  {
+    "id": "w00000462-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 69915,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T22:59:15.743Z"
+  },
+  {
+    "id": "w00000463-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 94231,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T13:43:20.516Z"
+  },
+  {
+    "id": "w00000464-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 43796,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T12:11:28.938Z"
+  },
+  {
+    "id": "w00000465-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000465",
+    "balance_cents": 16314,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T01:31:47.425Z"
+  },
+  {
+    "id": "w00000466-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 98113,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T12:30:22.033Z"
+  },
+  {
+    "id": "w00000467-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 85859,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T10:17:30.137Z"
+  },
+  {
+    "id": "w00000468-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 88046,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T08:34:30.635Z"
+  },
+  {
+    "id": "w00000469-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000469",
+    "balance_cents": 95888,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-21T06:43:54.757Z"
+  },
+  {
+    "id": "w00000470-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 94772,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T17:31:24.382Z"
+  },
+  {
+    "id": "w00000471-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 42799,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-16T18:11:43.720Z"
+  },
+  {
+    "id": "w00000472-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 63978,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T22:49:43.129Z"
+  },
+  {
+    "id": "w00000473-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000473",
+    "balance_cents": 87106,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-18T10:53:37.344Z"
+  },
+  {
+    "id": "w00000474-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 40671,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T16:47:34.861Z"
+  },
+  {
+    "id": "w00000475-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 9760,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T02:01:38.056Z"
+  },
+  {
+    "id": "w00000476-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 100744,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T16:02:32.156Z"
+  },
+  {
+    "id": "w00000477-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000477",
+    "balance_cents": 14866,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-28T17:44:21.882Z"
+  },
+  {
+    "id": "w00000478-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 26016,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-08T13:23:42.255Z"
+  },
+  {
+    "id": "w00000479-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 12944,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-10T03:36:35.308Z"
+  },
+  {
+    "id": "w00000480-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 12023,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-09T19:27:53.358Z"
+  },
+  {
+    "id": "w00000481-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000481",
+    "balance_cents": 6506,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-12T16:54:52.425Z"
+  },
+  {
+    "id": "w00000482-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 29010,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T03:41:27.647Z"
+  },
+  {
+    "id": "w00000483-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 1624,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-15T04:07:18.777Z"
+  },
+  {
+    "id": "w00000484-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 30539,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-19T19:11:47.787Z"
+  },
+  {
+    "id": "w00000485-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000485",
+    "balance_cents": 44219,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-02T10:06:27.837Z"
+  },
+  {
+    "id": "w00000486-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 34859,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-06T12:27:56.643Z"
+  },
+  {
+    "id": "w00000487-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 99387,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-11T12:30:53.421Z"
+  },
+  {
+    "id": "w00000488-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 2918,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T12:50:53.304Z"
+  },
+  {
+    "id": "w00000489-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000489",
+    "balance_cents": 44801,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-03-31T21:12:31.930Z"
+  },
+  {
+    "id": "w00000490-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 53951,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-03T07:40:23.645Z"
+  },
+  {
+    "id": "w00000491-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 16735,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T09:34:23.941Z"
+  },
+  {
+    "id": "w00000492-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 97101,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-07T20:49:19.784Z"
+  },
+  {
+    "id": "w00000493-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000493",
+    "balance_cents": 57089,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T22:32:40.223Z"
+  },
+  {
+    "id": "w00000494-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 69813,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-23T07:18:27.601Z"
+  },
+  {
+    "id": "w00000495-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 4739,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-14T17:31:35.283Z"
+  },
+  {
+    "id": "w00000496-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 79940,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-22T05:47:39.861Z"
+  },
+  {
+    "id": "w00000497-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "rapyd",
+    "external_id": "rapyd_ewallet_00000497",
+    "balance_cents": 76862,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-13T05:51:52.108Z"
+  },
+  {
+    "id": "w00000498-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "vgs_legacy",
+    "external_id": null,
+    "balance_cents": 4646,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-24T11:53:45.870Z"
+  },
+  {
+    "id": "w00000499-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "mock",
+    "external_id": null,
+    "balance_cents": 66459,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-25T16:11:05.960Z"
+  },
+  {
+    "id": "w00000500-0000-0000-0000-000000000000",
+    "user_id": "u1",
+    "rail": "stripe_acp",
+    "external_id": null,
+    "balance_cents": 93646,
+    "currency": "USD",
+    "agent_id": null,
+    "created_at": "2026-04-05T02:43:57.496Z"
+  }
+]

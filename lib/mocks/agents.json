@@ -1,0 +1,41 @@
+[
+  {
+    "id": "a1b2c3d4-0000-0000-0000-000000000001",
+    "user_id": "u1",
+    "ans_uri": "mcp://shoppingAgent.retail.acme.v1.0.0.example.com",
+    "protocol": "mcp",
+    "agent_id": "shoppingAgent",
+    "capability": "retail",
+    "provider": "acme",
+    "version": "v1.0.0",
+    "extension": "example.com",
+    "fqdn": "shoppingagent.acme.example.com",
+    "trust_badge_status": "verified"
+  },
+  {
+    "id": "a1b2c3d4-0000-0000-0000-000000000002",
+    "user_id": "u1",
+    "ans_uri": "a2a://textProcessor.documentTranslation.acme.v2.1.hipaa",
+    "protocol": "a2a",
+    "agent_id": "textProcessor",
+    "capability": "documentTranslation",
+    "provider": "acme",
+    "version": "v2.1",
+    "extension": "hipaa",
+    "fqdn": "textprocessor.acme.corp",
+    "trust_badge_status": "verified"
+  },
+  {
+    "id": "a1b2c3d4-0000-0000-0000-000000000003",
+    "user_id": "u1",
+    "ans_uri": "acp://billPayer.procurement.acme.v1.2.0.corp.com",
+    "protocol": "acp",
+    "agent_id": "billPayer",
+    "capability": "procurement",
+    "provider": "acme",
+    "version": "v1.2.0",
+    "extension": "corp.com",
+    "fqdn": "billpayer.acme.corp.com",
+    "trust_badge_status": "pending"
+  }
+]

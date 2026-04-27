@@ -1,0 +1,32 @@
+[
+  {
+    "id": "p1b2c3d4-0000-0000-0000-000000000001",
+    "user_id": "u1",
+    "agent_id": "a1b2c3d4-0000-0000-0000-000000000001",
+    "max_per_tx_cents": 50000,
+    "max_daily_cents": 500000,
+    "merchant_allowlist": ["*.amazon.com", "*.aws.amazon.com", "*.stripe.com"],
+    "priority": "high",
+    "config_hash": "a3f9c1e2b4d6f8a0"
+  },
+  {
+    "id": "p1b2c3d4-0000-0000-0000-000000000002",
+    "user_id": "u1",
+    "agent_id": "a1b2c3d4-0000-0000-0000-000000000002",
+    "max_per_tx_cents": 25000,
+    "max_daily_cents": 100000,
+    "merchant_allowlist": ["*.deepl.com", "*.google.com", "translation.googleapis.com"],
+    "priority": "normal",
+    "config_hash": "b7e2d4f1a9c3e5b8"
+  },
+  {
+    "id": "p1b2c3d4-0000-0000-0000-000000000003",
+    "user_id": "u1",
+    "agent_id": "a1b2c3d4-0000-0000-0000-000000000003",
+    "max_per_tx_cents": 100000,
+    "max_daily_cents": 1000000,
+    "merchant_allowlist": ["*.vendor.example.com", "mock-vendor.example", "*.acme.corp"],
+    "priority": "critical",
+    "config_hash": "c4a8f2e6d1b9c7f3"
+  }
+]
