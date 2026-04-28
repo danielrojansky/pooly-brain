@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -22,17 +22,44 @@ interface ExecutionState {
   receipt?: { merchant: string; amount: number; timestamp: string };
 }
 
+interface Prediction {
+  decision: 'allow' | 'deny';
+  reasons: string[];
+}
+
 export default function ExecutionPage() {
   const [agentId, setAgentId] = useState(AGENTS[2].id);
   const [amount, setAmount] = useState('299');
   const [state, setState] = useState<ExecutionState>({ stage: 'idle', trace: [] });
+  const [prediction, setPrediction] = useState<Prediction | null>(null);
 
   const selectedAgent = AGENTS.find((a) => a.id === agentId)!;
-  const amountCents = Math.round(parseFloat(amount) * 100);
+  const amountCents = Math.round(parseFloat(amount || '0') * 100);
   const merchantUrl = 'mock-vendor.example/checkout';
 
-  // Predictive insight
-  const predictedAllow = amountCents <= 100000;
+  const fetchPrediction = useCallback(async () => {
+    if (!amountCents) { setPrediction(null); return; }
+    try {
+      const res = await fetch('/api/policy/evaluate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ agentId, amountCents, merchantUrl }),
+      });
+      const json = await res.json();
+      if (json.ok) {
+        setPrediction({ decision: json.data.decision, reasons: json.data.reasons });
+      } else {
+        setPrediction(null);
+      }
+    } catch {
+      setPrediction(null);
+    }
+  }, [agentId, amountCents]);
+
+  useEffect(() => {
+    const t = setTimeout(fetchPrediction, 250);
+    return () => clearTimeout(t);
+  }, [fetchPrediction]);
 
   async function trigger() {
     setState({ stage: 'policy', trace: [] });
@@ -46,12 +73,14 @@ export default function ExecutionPage() {
     const startJson = await startRes.json();
 
     if (!startJson.ok) {
+      const reasons = startJson.error?.data?.reasons ?? [];
+      const reasonMsg = reasons.length > 0 ? reasons[0] : (startJson.error?.message ?? 'no reason given');
       setState({
         stage: 'error',
-        policyDecision: startJson.error?.data,
-        trace: [{ t: 0, msg: 'Policy denied: ' + (startJson.error?.data?.reasons?.[0] ?? 'unknown'), type: 'error' }],
+        policyDecision: startJson.error?.data ?? { decision: 'deny', reasons: [reasonMsg] },
+        trace: [{ t: 0, msg: `Policy denied: ${reasonMsg}`, type: 'error' }],
       });
-      toast.error('Policy denied');
+      toast.error(`Policy denied: ${reasonMsg}`);
       return;
     }
 
@@ -166,14 +195,21 @@ export default function ExecutionPage() {
             <span className="text-sm font-medium text-[#E2E8F0]">Predictive Insight</span>
             <span className="text-xs text-[#94A3B8]">— before execution</span>
           </div>
-          <div className="flex items-center gap-3 text-sm">
-            <span className="text-[#94A3B8]">Brain prediction for ${amount} to {merchantUrl}:</span>
-            {predictedAllow ? (
-              <span className="flex items-center gap-1 text-[#10B981]"><Check className="h-3 w-3" /> ALLOW</span>
-            ) : (
-              <span className="flex items-center gap-1 text-[#EF4444]"><AlertTriangle className="h-3 w-3" /> DENY (exceeds limit)</span>
+          <div className="flex flex-col gap-2 text-sm">
+            <div className="flex flex-wrap items-center gap-3">
+              <span className="text-[#94A3B8]">Brain prediction for ${amount || '0'} to {merchantUrl}:</span>
+              {prediction === null ? (
+                <span className="text-[#94A3B8] text-xs">Evaluating…</span>
+              ) : prediction.decision === 'allow' ? (
+                <span className="flex items-center gap-1 text-[#10B981]"><Check className="h-3 w-3" /> ALLOW</span>
+              ) : (
+                <span className="flex items-center gap-1 text-[#EF4444]"><AlertTriangle className="h-3 w-3" /> DENY</span>
+              )}
+              <span className="text-xs text-[#94A3B8]">via {selectedAgent.name} · vgs_legacy rail</span>
+            </div>
+            {prediction?.decision === 'deny' && prediction.reasons[0] && (
+              <div className="font-mono text-xs text-[#EF4444] pl-1">{prediction.reasons[0]}</div>
             )}
-            <span className="text-xs text-[#94A3B8]">via {selectedAgent.name} · vgs_legacy rail</span>
           </div>
         </div>
 

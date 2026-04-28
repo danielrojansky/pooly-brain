@@ -76,7 +76,35 @@ export function TourProvider({ children }: { children: ReactNode }) {
     });
   }, []);
 
-  const step = state === 'running' ? (TOUR_STEPS[stepIndex] ?? null) : null;
+  const step = state === 'running' || state === 'paused' ? (TOUR_STEPS[stepIndex] ?? null) : null;
+
+  useEffect(() => {
+    if (state !== 'running' || !step) return;
+    const dwellMs = step.dwellMs ?? 2500;
+    const t = setTimeout(() => {
+      setStepIndex((i) => {
+        const n = i + 1;
+        if (n >= TOUR_STEPS.length) {
+          setState('done');
+          return i;
+        }
+        return n;
+      });
+    }, dwellMs);
+    return () => clearTimeout(t);
+  }, [state, step, stepIndex]);
+
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'Escape' && (state === 'running' || state === 'paused')) {
+        setState('idle');
+        setStepIndex(0);
+        sessionStorage.removeItem('tour_step');
+      }
+    }
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [state]);
 
   return (
     <TourContext.Provider

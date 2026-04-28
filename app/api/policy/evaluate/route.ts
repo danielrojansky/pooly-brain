@@ -32,7 +32,10 @@ export async function POST(req: Request) {
       SELECT * FROM policies WHERE agent_id = ${agentId} ORDER BY created_at DESC LIMIT 1
     `;
     if (!rows.rows[0]) {
-      return Response.json({ ok: false, error: { code: 'NO_POLICY' } }, { status: 404 });
+      return Response.json({
+        ok: false,
+        error: { code: 'NO_POLICY', message: `No policy found for agent ${agentId}. Create one first.` },
+      }, { status: 404 });
     }
     const raw = rows.rows[0];
     const policy = {

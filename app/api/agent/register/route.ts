@@ -50,11 +50,26 @@ export async function POST(req: Request) {
         (SELECT id FROM users WHERE email = ${session.user.email}),
         ${ansUri}, ${protocol}, ${agentId}, ${capability}, ${provider}, ${version}, ${extension}, ${fqdn}
       )
+      ON CONFLICT (ans_uri) DO UPDATE SET
+        capability = EXCLUDED.capability,
+        provider = EXCLUDED.provider,
+        version = EXCLUDED.version,
+        extension = EXCLUDED.extension,
+        fqdn = EXCLUDED.fqdn
       RETURNING *
     `;
     return Response.json({ ok: true, data: { agent: rows.rows[0], ansUri } });
   } catch (e: unknown) {
-    const msg = e instanceof Error ? e.message : 'Unknown error';
-    return Response.json({ ok: false, error: { code: 'DB_ERROR', message: msg } }, { status: 500 });
+    const raw = e instanceof Error ? e.message : 'Unknown error';
+    let code = 'DB_ERROR';
+    let message = 'Unable to register agent. Try again.';
+    if (raw.includes('agents_ans_uri_key') || raw.includes('duplicate key')) {
+      code = 'AGENT_EXISTS';
+      message = `An agent with URI ${ansUri} is already registered.`;
+    } else if (raw.includes('connection') || raw.includes('fetch failed')) {
+      code = 'DB_UNAVAILABLE';
+      message = 'Database temporarily unavailable. Try again in a moment.';
+    }
+    return Response.json({ ok: false, error: { code, message } }, { status: 400 });
   }
 }

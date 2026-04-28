@@ -2,8 +2,11 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from '@/components/ui/dialog';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
 import { WalletCard } from '@/components/WalletCard';
-import { Loader2, Wallet, Plus } from 'lucide-react';
+import { Loader2, Wallet, Plus, Lock } from 'lucide-react';
 import { toast } from 'sonner';
 
 interface WalletData {
@@ -28,6 +31,9 @@ export default function TreasuryPage() {
   const [deploying, setDeploying] = useState(false);
   const [draggedWallet, setDraggedWallet] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState('mock');
+  const [fundOpen, setFundOpen] = useState(false);
+  const [fundAmount, setFundAmount] = useState('10000');
+  const [funding, setFunding] = useState(false);
 
   useEffect(() => {
     loadWallets();
@@ -39,9 +45,11 @@ export default function TreasuryPage() {
       const res = await fetch('/api/treasury/wallets');
       const json = await res.json();
       if (json.ok) {
-        setWallets(json.data.wallets);
-        setTotalBalance(json.data.totalBalance);
+        setWallets(json.data.wallets ?? []);
+        setTotalBalance(json.data.totalBalance ?? 0);
       }
+    } catch {
+      toast.error('Failed to load wallets');
     } finally {
       setLoading(false);
     }
@@ -57,12 +65,43 @@ export default function TreasuryPage() {
       });
       const json = await res.json();
       if (json.ok) {
-        setWallets(json.data.wallets ?? wallets);
-        toast.success(`Deployed ${json.data.count} wallets`);
+        toast.success(`Deployed ${json.data.count ?? 500} wallets`);
         await loadWallets();
+      } else {
+        toast.error(json.error?.message ?? 'Deploy failed');
       }
+    } catch {
+      toast.error('Network error during deploy');
     } finally {
       setDeploying(false);
+    }
+  }
+
+  async function fundTreasury() {
+    const cents = Math.round(parseFloat(fundAmount) * 100);
+    if (!cents || cents < 100) {
+      toast.error('Minimum $1.00 funding amount');
+      return;
+    }
+    setFunding(true);
+    try {
+      const res = await fetch('/api/treasury/fund', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ amountCents: cents, vgsToken: 'tok_demo_5678' }),
+      });
+      const json = await res.json();
+      if (json.ok) {
+        toast.success(`Added $${(cents / 100).toFixed(2)} to master treasury`);
+        setFundOpen(false);
+        await loadWallets();
+      } else {
+        toast.error(json.error?.message ?? 'Funding failed');
+      }
+    } catch {
+      toast.error('Network error during funding');
+    } finally {
+      setFunding(false);
     }
   }
 
@@ -71,7 +110,7 @@ export default function TreasuryPage() {
     return wallets.filter((w) => w.rail === rail);
   }
 
-  const railWallets = filterByRail(activeTab === 'all' ? 'all' : activeTab);
+  const railWallets = filterByRail(activeTab);
   const visibleWallets = railWallets.slice(0, 50);
 
   return (
@@ -84,7 +123,7 @@ export default function TreasuryPage() {
         </div>
 
         {/* Master Treasury Balance */}
-        <div className="bg-[#1E293B] border border-[#334155] rounded-xl p-6 mb-6 flex items-center justify-between">
+        <div className="bg-[#1E293B] border border-[#334155] rounded-xl p-6 mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div className="flex items-center gap-4">
             <div className="bg-[#3B82F6]/10 rounded-lg p-3">
               <Wallet className="h-6 w-6 text-[#3B82F6]" />
@@ -97,15 +136,15 @@ export default function TreasuryPage() {
               <div className="text-xs text-[#94A3B8]">{wallets.length} wallets</div>
             </div>
           </div>
-          <Button className="bg-[#10B981] hover:bg-[#059669] flex items-center gap-2">
+          <Button onClick={() => setFundOpen(true)} className="bg-[#10B981] hover:bg-[#059669] flex items-center gap-2">
             <Plus className="h-4 w-4" />
             Add Funds
           </Button>
         </div>
 
         <Tabs value={activeTab} onValueChange={setActiveTab}>
-          <div className="flex items-center justify-between mb-4">
-            <TabsList className="bg-[#1E293B] border border-[#334155]">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 gap-3">
+            <TabsList className="bg-[#1E293B] border border-[#334155] flex-wrap h-auto">
               <TabsTrigger value="stripe_acp" className="data-[state=active]:bg-[#3B82F6] data-[state=active]:text-white">Stripe Virtual</TabsTrigger>
               <TabsTrigger value="rapyd" className="data-[state=active]:bg-[#10B981] data-[state=active]:text-white">Rapyd Native</TabsTrigger>
               <TabsTrigger value="mock" className="data-[state=active]:bg-[#334155]">Mock</TabsTrigger>
@@ -127,6 +166,11 @@ export default function TreasuryPage() {
                 <div className="flex items-center justify-center py-20">
                   <Loader2 className="h-8 w-8 animate-spin text-[#3B82F6]" />
                 </div>
+              ) : visibleWallets.length === 0 ? (
+                <div className="bg-[#1E293B] border border-dashed border-[#334155] rounded-xl py-16 text-center">
+                  <p className="text-[#94A3B8]">No {rail.replace('_', ' ')} wallets yet.</p>
+                  <p className="text-xs text-[#475569] mt-2">Click &quot;Deploy 500 Wallets&quot; to provision.</p>
+                </div>
               ) : (
                 <div
                   data-tour-id="wallet-grid"
@@ -135,7 +179,6 @@ export default function TreasuryPage() {
                   onDrop={(e) => {
                     e.preventDefault();
                     if (draggedWallet) {
-                      // Drop on grid = unassign
                       toast.info('Drop on an agent badge to assign');
                       setDraggedWallet(null);
                     }
@@ -160,6 +203,44 @@ export default function TreasuryPage() {
           ))}
         </Tabs>
       </div>
+
+      <Dialog open={fundOpen} onOpenChange={setFundOpen}>
+        <DialogContent className="bg-[#1E293B] border-[#334155] text-[#E2E8F0]">
+          <DialogHeader>
+            <DialogTitle>Fund Master Treasury</DialogTitle>
+            <DialogDescription className="text-[#94A3B8]">
+              Card data is captured via VGS Collect.js — no PAN ever touches our backend (PCI SAQ A).
+            </DialogDescription>
+          </DialogHeader>
+          <div className="space-y-4 py-2">
+            <div className="bg-[#0F172A] border border-[#334155] rounded-lg p-4 flex items-center gap-3">
+              <Lock className="h-4 w-4 text-[#10B981]" />
+              <span className="text-xs font-mono text-[#94A3B8]">VGS Collect iFrame · sandbox · tok_demo_5678</span>
+            </div>
+            <div>
+              <Label htmlFor="fund-amount" className="text-[#94A3B8] text-xs">Amount (USD)</Label>
+              <Input
+                id="fund-amount"
+                type="number"
+                value={fundAmount}
+                onChange={(e) => setFundAmount(e.target.value)}
+                min="1"
+                step="100"
+                className="bg-[#0F172A] border-[#334155] text-[#E2E8F0] mt-1 font-mono"
+              />
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="ghost" onClick={() => setFundOpen(false)} className="text-[#94A3B8]">
+              Cancel
+            </Button>
+            <Button onClick={fundTreasury} disabled={funding} className="bg-[#10B981] hover:bg-[#059669]">
+              {funding ? <Loader2 className="h-4 w-4 animate-spin mr-2" /> : null}
+              Fund ${parseFloat(fundAmount || '0').toFixed(2)}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }

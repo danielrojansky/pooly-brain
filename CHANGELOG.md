@@ -2,6 +2,37 @@
 
 All notable changes to Pooly Brain. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.4.0] — 2026-04-28
+
+### Fixed (16 bugs from QA sweep)
+
+**Critical:**
+- **Mobile navigation** — added hamburger menu collapsing on `<md` viewports. NavBar items, sign-out, and avatar now reachable on mobile. Logo abbreviates to "Brain" on small screens.
+- **Mock checkout iframe blank** — page returned nested `<html><body>` inside Next.js root layout, causing invalid DOM and blank render. Replaced with `route.ts` GET handler returning plain HTML response.
+- **Raw DB error exposed to user** — `agents_ans_uri_key` constraint violation now caught server-side. Returns friendly `"An agent with URI X is already registered."` Also handles connection errors. Added `ON CONFLICT DO UPDATE` for idempotent re-registration.
+
+**High:**
+- **Toasts never auto-dismissed + persisted across routes** — Sonner Toaster now has `duration: 4000` and `closeButton: true`.
+- **"Add Funds" button non-functional** — added Dialog with VGS Collect placeholder + amount input. POSTs to `/api/treasury/fund`, refreshes wallets after.
+- **Treasury "0 wallets" after deploy** — empty-state UI added; deploy now reloads wallets and shows actual count from response.
+- **"Deploy Policy" generic "Deployment failed"** — now surfaces real error message. Added agent existence check before INSERT to give actionable error: *"Register agent X on the Onboarding page first."*
+- **"Evaluate" button looked permanently disabled** — restyled to primary blue `#3B82F6` instead of gray `#334155`.
+- **Predictive Insight contradicted execution result** — replaced hardcoded `amountCents <= 100000` heuristic with live `/api/policy/evaluate` call (debounced 250ms). Now matches server decision exactly. Shows specific deny reason inline.
+- **Mock checkout PAN field rendered blank** — fixed (see above).
+
+**Medium:**
+- **Login form silently accepted invalid input** — added inline email regex validation, error display with `aria-invalid` + `role="alert"`. Empty input shows "Please enter your email."
+- **No way back from /login** — added "← Back to home" link above card.
+- **Tour "Walk Me Through" provided no visible guidance** — fixed Cursor.tsx (was using `useRef` so React never re-rendered cursor position; converted to `useState`). Added highlighted target ring with backdrop dimming, scroll-into-view, and animated tooltip. TourProvider now auto-advances on each step's `dwellMs` and Esc key exits.
+
+**Low:**
+- Tour cursor visibility — pulsing click indicator + 72px-wide tooltip card with "Tour step" label.
+
+### Added
+- Bumped to v0.4.0 (displayed in NavBar).
+- Custom tour highlight overlay with backdrop dim.
+- Empty state UI on Treasury when no wallets exist.
+
 ## [0.3.0] — 2026-04-27
 
 ### Fixed

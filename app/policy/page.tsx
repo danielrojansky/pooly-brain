@@ -80,8 +80,10 @@ export default function PolicyPage() {
         setConfigHash(json.data.configHash);
         toast.success('Policy deployed');
       } else {
-        toast.error('Deployment failed');
+        toast.error(json.error?.message ?? 'Deployment failed');
       }
+    } catch {
+      toast.error('Network error. Try again.');
     } finally {
       setLoading(false);
     }
@@ -100,7 +102,18 @@ export default function PolicyPage() {
         }),
       });
       const json = await res.json();
-      if (json.ok) setEvalResult(json.data);
+      if (json.ok) {
+        setEvalResult(json.data);
+      } else {
+        // Evaluate route returns 403 with error.data on deny
+        if (json.error?.data) {
+          setEvalResult(json.error.data);
+        } else {
+          toast.error(json.error?.message ?? 'Evaluation failed');
+        }
+      }
+    } catch {
+      toast.error('Network error');
     } finally {
       setEvalLoading(false);
     }
@@ -228,7 +241,7 @@ export default function PolicyPage() {
                 <Button
                   onClick={testEvaluation}
                   disabled={evalLoading}
-                  className="w-full bg-[#334155] hover:bg-[#475569]"
+                  className="w-full bg-[#3B82F6] hover:bg-[#2563EB] text-white"
                 >
                   {evalLoading && <Loader2 className="h-4 w-4 animate-spin mr-2" />}
                   Evaluate
